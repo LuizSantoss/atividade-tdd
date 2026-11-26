@@ -5,3 +5,7 @@ export function somar(a: number, b: number): number {
 export function subtrair(a: number, b: number): number {
   return a - b;
 }
+
+export function multiplicar(a: number, b: number): number {
+  return a * b;
+}

@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { somar, subtrair} from "./calculadora";
+import { somar, subtrair, multiplicar } from "./calculadora";
 
 describe("somar", () => {
   it("soma 3 e 5 resultando em 8", () => {

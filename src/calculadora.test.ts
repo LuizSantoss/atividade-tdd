@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { somar, subtrair, multiplicar} from "./calculadora";
+import { somar, subtrair, multiplicar, dividir } from "./calculadora";
 
 describe("somar", () => {
   it("soma 3 e 5 resultando em 8", () => {
@@ -17,5 +17,11 @@ describe("subtrair", () => {
 describe("multiplicar", () => {
   it("multiplica 4 por 3 resultando em 12", () => {
     expect(multiplicar(4, 3)).toBe(12);
+  });
+});
+
+describe("dividir", () => {
+  it("divide 10 por 2 resultando em 5", () => {
+    expect(dividir(10, 2)).toBe(5);
   });
 });
